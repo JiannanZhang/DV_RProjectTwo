@@ -1,0 +1,1 @@
+df1 %>% ggplot(aes(x = factor(CITY), fill = factor(INICIDENT_ZIP))) + geom_bar(width = 1)+ theme(axis.text.x = element_text(angle = 90, hjust = 1))

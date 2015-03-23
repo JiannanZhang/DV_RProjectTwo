@@ -1,0 +1,1 @@
+df %>% group_by(BOROUGH, COMPLAINT_TYPE)  %>% summarise(sum = sum(COMPLAINT_TYPE)) %>% tbl_df

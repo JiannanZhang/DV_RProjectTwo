@@ -1,0 +1,1 @@
+ggplot(df4) + geom_histogram(colour='darkgreen',aes(x=INICIDENT_ZIP)) + labs(title='HEAT/HOT WATER Compliants Distribution by areas in NY')+ theme(axis.text.x = element_text(angle = 90, hjust = 1))

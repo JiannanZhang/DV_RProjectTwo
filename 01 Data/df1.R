@@ -1,0 +1,1 @@
+df1 <- df %>% select(COMPLAINT_TYPE,CITY,INICIDENT_ZIP) %>% filter(COMPLAINT_TYPE %in% 'HEAT/HOT WATER')

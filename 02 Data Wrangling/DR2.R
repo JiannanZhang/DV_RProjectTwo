@@ -1,0 +1,1 @@
+ggplot(df2) + geom_histogram(colour='darkgreen',aes(x=INICIDENT_ZIP)) + labs(title='HEAT/HOT WATER Compliants Distribution by area in Bronx')+ theme(axis.text.x = element_text(angle = 90, hjust = 1))
